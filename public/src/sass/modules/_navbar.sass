@@ -26,7 +26,7 @@ nav
 #sectionHeader
     height: 70vh
     margin-top: 100px
-    background: #f2f2f2
+    @extend .bgGrey
     padding: 50px
     .buttonNavBook2
         height: 45px
@@ -46,45 +46,6 @@ nav
         font-weight: 700
         font-size: 4rem
 
-
-.colorGrey
-    color: $colorGrey
-.colorRed
-    color: $colorRed
-.bgRed
-    background: $colorRed
-
-
-#about
-    .titelSectionP
-        text-align: center
-        color: #7e7e8f
-    .titelSection
-        font-family: $familly
-        font-size: 3rem
-        text-align: center
-        .spanColor
-            font-family: $familly
-            color: $colorRed
-    .about-image
-        width: 40vw
-    .about-image2
-        position: relative
-    .about-image2 img
-        width: 27vw
-        .aboutImageIcone
-            font-size: 2.5rem
-            background: $colorRed
-            width: 80px
-            height: 80px
-            position: absolute
-            left: 45%
-            top: 45%
-            border-radius: 50%
-            display: flex
-            justify-content: center
-            align-items: center
-            cursor: pointer
 
 @keyframes jumping
   0%
