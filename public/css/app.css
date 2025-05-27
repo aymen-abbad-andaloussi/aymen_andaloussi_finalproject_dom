@@ -11852,6 +11852,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.familly {
+  font-family: "Amatic SC", sans-serif;
+}
+
 .colorGrey {
   color: #7e7e8f;
 }
@@ -11872,8 +11876,16 @@ textarea.form-control-lg {
   background: #fcf3f3;
 }
 
+.colorLightRed {
+  color: #e69f9f;
+}
+
 .bgRedTrens {
   background: rgba(255, 202, 202, 0.2823529412);
+}
+
+.bgBlancasser {
+  background: #f2f2f2;
 }
 
 * {
@@ -11942,29 +11954,35 @@ nav #navList li a {
     transform: translateY(0px);
   }
 }
-#about .titelSectionP {
+.titelSectionP {
   text-align: center;
   color: #7e7e8f;
+  font-size: 14px;
 }
-#about .titelSection {
+
+.titelSection {
   font-family: "Amatic SC", sans-serif;
   font-size: 3rem;
   text-align: center;
 }
-#about .titelSection .spanColor {
+.titelSection .spanColor {
   font-family: "Amatic SC", sans-serif;
   color: #ce1212;
 }
-#about .about-image {
+
+.about-image {
   width: 40vw;
 }
-#about .about-image2 {
+
+.about-image2 {
   position: relative;
 }
-#about .about-image2 img {
+
+.about-image2 img {
   width: 27vw;
 }
-#about .aboutImageIcone {
+
+.aboutImageIcone {
   font-size: 2.5rem;
   background: #ce1212;
   width: 80px;
@@ -12007,6 +12025,19 @@ nav #navList li a {
   top: 0;
   background: rgba(0, 0, 0, 0.4117647059);
   z-index: 1;
+}
+
+.imageMenu {
+  width: 17vw;
+}
+
+.testimonialImage {
+  width: 10vw;
+  border-radius: 50%;
+}
+
+.testPara {
+  width: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */
