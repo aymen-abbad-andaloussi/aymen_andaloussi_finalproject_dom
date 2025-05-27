@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 /*!
  * Bootstrap  v5.3.5 (https://getbootstrap.com/)
@@ -11882,11 +11883,10 @@ nav #navList li a {
 
 #sectionHeader {
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
+  margin-top: 100px;
   background: #f2f2f2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 50px;
 }
 #sectionHeader .buttonNavBook2 {
   height: 45px;
@@ -11894,13 +11894,31 @@ nav #navList li a {
 #sectionHeader .buttonNavBook3 {
   font-size: 17px;
   font-weight: 500;
-  display: flex;
-  align-items: center;
-  column-gap: 10px;
 }
 #sectionHeader .buttonNavBook3 .iconePlay {
   color: #ce1212;
   font-size: 35px;
+}
+#sectionHeader .nav-div-image img {
+  width: 27vw;
+  animation: jumping 3s ease-in-out infinite alternate;
+}
+#sectionHeader .headerTitle {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+@keyframes jumping {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
