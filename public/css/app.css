@@ -11908,6 +11908,9 @@ nav #navDiv {
 nav #navList li a {
   color: #7e7e8f;
 }
+nav #navList li a:active {
+  border-bottom: 2px solid #ce1212;
+}
 
 .buttonNavBook {
   width: 150px;
