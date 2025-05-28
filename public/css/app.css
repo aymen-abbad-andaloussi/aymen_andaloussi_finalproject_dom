@@ -12055,4 +12055,33 @@ nav #navList li a {
   height: 13vh;
 }
 
+.contactCards {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 2rem;
+  padding-bottom: 50px;
+}
+.contactCards .contactCard {
+  display: grid;
+  grid-template-columns: 100px auto;
+  width: 32.5vw;
+  height: 10vh;
+  align-items: center;
+  padding: 0 25px;
+}
+.contactCards .cardInputs {
+  grid-column: 1/-1;
+  height: 40vh;
+}
+.contactCards .cardInputs textarea {
+  height: 18vh !important;
+}
+
+.iconContact {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=app.css.map */
