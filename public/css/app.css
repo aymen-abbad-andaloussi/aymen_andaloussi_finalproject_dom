@@ -12044,4 +12044,15 @@ nav #navList li a {
   cursor: pointer;
 }
 
+.book {
+  padding-top: 11vh;
+}
+.book .div-inputs input {
+  width: 13vw !important;
+}
+.book .div-textarea-book {
+  width: 94%;
+  height: 13vh;
+}
+
 /*# sourceMappingURL=app.css.map */
