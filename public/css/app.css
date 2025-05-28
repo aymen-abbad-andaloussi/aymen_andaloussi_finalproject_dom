@@ -12040,4 +12040,8 @@ nav #navList li a {
   width: 50%;
 }
 
+.cardChefs {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=app.css.map */
