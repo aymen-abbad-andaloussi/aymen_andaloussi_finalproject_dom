@@ -11908,9 +11908,6 @@ nav #navDiv {
 nav #navList li a {
   color: #7e7e8f;
 }
-nav #navList li a:active {
-  border-bottom: 2px solid #ce1212;
-}
 
 .buttonNavBook {
   width: 150px;
@@ -11918,6 +11915,16 @@ nav #navList li a:active {
   color: #fff;
   background: #ce1212;
   font-size: 17px;
+}
+
+#modal {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5411764706);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
 }
 
 #sectionHeader {
@@ -12034,13 +12041,15 @@ nav #navList li a:active {
   width: 17vw;
 }
 
-.testimonialImage {
-  width: 10vw;
-  border-radius: 50%;
+.menuCklick {
+  border: none;
+  padding: 0 5px;
+  border-bottom: 2px solid #7e7e8f;
+  outline: none;
+  transition: 0.1s ease;
 }
-
-.testPara {
-  width: 50%;
+.menuCklick:first-child {
+  border-bottom: 3px solid #ce1212;
 }
 
 .cardChefs {
@@ -12056,6 +12065,76 @@ nav #navList li a:active {
 .book .div-textarea-book {
   width: 94%;
   height: 13vh;
+}
+
+#galerie {
+  overflow: hidden;
+}
+#galerie .galerieDiv1 {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/gallery/gallery-1.jpg);
+}
+#galerie .galerieDiv2 {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/gallery/gallery-2.jpg);
+}
+#galerie .galerieDiv3 {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/gallery/gallery-3.jpg);
+}
+#galerie .galerieDiv4 {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/gallery/gallery-4.jpg);
+}
+#galerie .galerieDiv5 {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/gallery/gallery-5.jpg);
+}
+#galerie .galerieDiv6 {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/gallery/gallery-6.jpg);
+}
+#galerie .galerieDiv7 {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/gallery/gallery-7.jpg);
+}
+#galerie .galerieDiv8 {
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/gallery/gallery-8.jpg);
+}
+
+.filterDark {
+  background: rgba(0, 0, 0, 0.5019607843);
+  width: 100%;
+  height: 100%;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.filterDark h2 {
+  width: fit-content;
+  border-bottom: 2px solid #ce1212;
+  padding-bottom: 3px;
+}
+
+.titelGalerie {
+  font-family: "Amatic SC", sans-serif;
+}
+
+.bigDivGalerie {
+  overflow: hidden;
+}
+.bigDivGalerie .img-galerie2 {
+  width: 250px;
 }
 
 .contactCards {
@@ -12085,6 +12164,117 @@ nav #navList li a:active {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+}
+
+.hovv {
+  transition: 0.3s ease;
+}
+.hovv:hover {
+  background: #da4b4b;
+  color: #fff;
+}
+
+.hovvIcons i {
+  transition: 0.4s ease;
+}
+.hovvIcons:hover i {
+  background: #ce1212;
+  color: #ff6b6b;
+}
+
+.borderLeftRed {
+  border-left: 3px solid #ce1212;
+  padding: 0 0 0 20px;
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: 300px;
+}
+.carousel-container .carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+.carousel-container .carousel .slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+}
+.carousel-container .carousel .slide .testPara {
+  flex: 1;
+  max-width: 600px;
+  padding: 30px;
+  position: relative;
+}
+.carousel-container .carousel .slide .testPara .bi-quote {
+  position: absolute;
+  opacity: 0.2;
+  font-size: 2rem !important;
+}
+.carousel-container .carousel .slide .testPara .bi-quote:first-child {
+  top: 0;
+  left: 0;
+}
+.carousel-container .carousel .slide .testPara .bi-quote:last-child {
+  bottom: 0;
+  right: 0;
+}
+.carousel-container .carousel .slide .testimonialImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.carousel-container .indicators {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.carousel-container .indicators .indicator {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.borderLeftRed {
+  border-left: 3px solid #ce1212;
+}
+
+.cardChefs {
+  transition: 0.3s ease;
+}
+.cardChefs:hover {
+  transform: scale(110%);
+}
+
+.newDivVideo {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8078431373);
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 100px;
+}
+.newDivVideo button {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+}
+.newDivVideo video {
+  width: 80vw;
+  height: 80vh;
 }
 
 /*# sourceMappingURL=app.css.map */
