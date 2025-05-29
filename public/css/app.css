@@ -12277,4 +12277,121 @@ nav #navList li a {
   height: 80vh;
 }
 
+.iconeFooter {
+  font-size: 1em;
+  border: 1.5px solid #7e7e8f;
+  color: #7e7e8f;
+  border-radius: 50%;
+  padding: 10px 13px;
+}
+
+.btnFixedBottom {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #ce1212 !important;
+}
+.btnFixedBottom:hover {
+  background: #da4b4b;
+}
+
+@media (max-width: 426px) {
+  .respo {
+    flex-direction: column !important;
+  }
+  .respoRev {
+    flex-direction: column-reverse !important;
+  }
+  .nav-div-image img {
+    width: 100% !important;
+  }
+  .mediaSecHeader h1 {
+    font-size: 2em !important;
+  }
+  .mediaSecHeader p {
+    font-size: 15px !important;
+  }
+  .mediaSecHeader div button, .mediaSecHeader div a {
+    font-size: 15px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .mediaSecHeader div button {
+    width: 140px !important;
+  }
+  .about-image {
+    width: 100% !important;
+  }
+  .about-image2 img {
+    width: 100% !important;
+  }
+  .about-image2 i {
+    top: 40% !important;
+    left: 40% !important;
+  }
+  #aboutP3 {
+    height: 80vh !important;
+  }
+  #aboutP3 .mediaAbout3 {
+    align-items: center;
+    gap: 1.5rem;
+  }
+  #aboutP3 .mediaAbout3 div h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+  #aboutP3 .mediaAbout3 div p {
+    text-align: center;
+    font-weight: bold;
+    color: #c2c2c2;
+  }
+  .imageMenu {
+    width: 80% !important;
+  }
+  .carousel-container {
+    height: 90vh !important;
+  }
+  .testimonialImage {
+    width: 80vw !important;
+    height: 80vw !important;
+  }
+  .book {
+    padding: 5vh 0 !important;
+    width: 100% !important;
+  }
+  .book .mediaBookInp {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  .book .mediaBookInp .mediaInp {
+    width: 100% !important;
+  }
+  .book .mediaBookBtnLastDiv {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .book .mediaBookBtnLastDiv .mediaBookBtnLast {
+    width: 50vw !important;
+  }
+  .contactCards {
+    grid-template-columns: auto !important;
+    grid-template-rows: repeat(5, auto) !important;
+  }
+  .contactCards .contactCard {
+    width: 100% !important;
+    height: 12vh !important;
+  }
+  .contactCards .cardInputs {
+    height: 45vh !important;
+  }
+  .media-footer-card {
+    width: 100% !important;
+  }
+  .media-footer-copyright {
+    margin-top: 20px !important;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

@@ -26,12 +26,16 @@
         <!-- nav  -->
         <nav class="navbar container-fluid fixed-top navbar-expand-lg text-white">
             <div id="navDiv" class="container d-flex justify-content-between">
-                <div class="container">
+                <div class="container d-flex justify-content-between">
                     <a class="text-black navbar-brand fs-2 fw-medium font-familly " href="#">Yummy<span
                             class="colorRed">.</span></a>
-
+                    <button class="navbar-toggler text-secondary border-0 bg-transparent" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation" id="listGridNav">
+                        <i class="bi bi-list fs-1"></i>
+                    </button>
                 </div>
-                <div class="container collapse navbar-collapse" id="navbarNavDropdown">
+                <div class=" collapse navbar-collapse">
                     <ul id="navList" class="navbar-nav d-flex gap-2">
                         <li class="nav-item">
                             <a class="nav-link active navListA" aria-current="page" href="#sectionHeader">Home</a>
@@ -97,7 +101,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class=" nav-div-button-book">
+                <div class=" nav-div-button-book" >
                     <button class="buttonNavBook btn hovv" id="loginModal">Log In</button>
                 </div>
             </div>
@@ -105,12 +109,16 @@
         <!-- /nav/ -->
         <!-- section header -->
         <section id="sectionHeader" class="d-flex align-items-center">
-            <div class="container divSectionHeader d-flex align-items-center justify-content-between">
-                <div class="">
-                    <h1 class="headerTitle w-75" data-aos="fade-up" data-aos-duration="1000">Enjoy Your Healthy Delicious Food</h1>
-                    <p class="headerPara fs-5 w-75" data-aos="fade-up" data-aos-duration="1300">We are team of talented designers making websites with Bootstrap</p>
-                    <div class=" nav-div-button-book d-flex align-items-center gap-4" data-aos="fade-up" data-aos-duration="1600">
-                        <a class="buttonNavBook buttonNavBook2 hovv btn text-decoration-none"  href="#bookAtableInfos">Book a Table</a>
+            <div class="respoRev  container divSectionHeader d-flex align-items-center justify-content-between">
+                <div class="mediaSecHeader">
+                    <h1 class="headerTitle w-75" data-aos="fade-up" data-aos-duration="1000">Enjoy Your Healthy
+                        Delicious Food</h1>
+                    <p class="headerPara fs-5 w-75" data-aos="fade-up" data-aos-duration="1300">We are team of talented
+                        designers making websites with Bootstrap</p>
+                    <div class=" nav-div-button-book d-flex align-items-center gap-4" data-aos="fade-up"
+                        data-aos-duration="1600">
+                        <a class="buttonNavBook buttonNavBook2 hovv btn text-decoration-none"
+                            href="#bookAtableInfos">Book a Table</a>
                         <button class="bg-transparent border-0 buttonNavBook3 d-flex align-items-center gap-3"
                             id="btnVideo"><i class="iconePlay bi bi-play-circle"></i>Book a
                             Table</button>
@@ -135,7 +143,7 @@
                     <p class="titelSectionP">ABOUT US</p>
                     <h1 class="titelSection">Learn More <span class="spanColor">About Us</span></h1>
                 </div>
-                <div class="d-flex gap-5">
+                <div class="d-flex gap-5 respo" >
                     <div class="" data-aos="fade-up" data-aos-duration="1400">
                         <img src="./public/images/about.jpg" alt="" class="about-image ">
                         <p class="fw-bold fs-3 text-center border border-5 border-dark p-3 mt-3">Book a Table <br><span
@@ -172,8 +180,9 @@
         </section>
 
         <section id="aboutP2" class="container-fluid bgGrey py-5 mt-5">
-            <div class="container d-flex gap-4">
-                <div class="card rounded-0 bgRed hovv text-white col-md-4 p-4 d-flex flex-column gap-3" data-aos="fade-up" data-aos-duration="800">
+            <div class="container d-flex gap-4 respo">
+                <div class="card rounded-0 bgRed hovv text-white col-md-4 p-4 d-flex flex-column gap-3"
+                    data-aos="fade-up" data-aos-duration="800">
                     <h2 class="fw-bolder">Why Choose Yummy</h2>
                     <p class="pt-3 fw-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut
@@ -183,19 +192,22 @@
                         <button class="btn bgLightRedbutton bgRedTrens rounded-5 text-white ">Learn More ></button>
                     </div>
                 </div>
-                <div class="otherCards card rounded-0 p-4 d-flex hovvIcons flex-column align-items-center gap-3 pt-5" data-aos="fade-up" data-aos-duration="1100">
+                <div class="otherCards card rounded-0 p-4 d-flex hovvIcons flex-column align-items-center gap-3 pt-5"
+                    data-aos="fade-up" data-aos-duration="1100">
                     <i class="bi bi-clipboard-data bgLightRed colorRed aboutP2icons "></i>
                     <h5 class="text-center">Corporis voluptates officia eiusmod</h5>
                     <p class="text-center">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
                         aliquip</p>
                 </div>
-                <div class="otherCards card rounded-0 p-4 d-flex hovvIcons flex-column align-items-center gap-3 pt-5" data-aos="fade-up" data-aos-duration="1400">
+                <div class="otherCards card rounded-0 p-4 d-flex hovvIcons flex-column align-items-center gap-3 pt-5"
+                    data-aos="fade-up" data-aos-duration="1400">
                     <i class="bi bi-gem bgLightRed colorRed aboutP2icons "></i>
                     <h5 class="text-center">Ullamco laboris ladore lore pan</h5>
                     <p class="text-center">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
                         aliquip</p>
                 </div>
-                <div class="otherCards card rounded-0 p-4 d-flex hovvIcons flex-column align-items-center gap-3 pt-5" data-aos="fade-up" data-aos-duration="1700">
+                <div class="otherCards card rounded-0 p-4 d-flex hovvIcons flex-column align-items-center gap-3 pt-5"
+                    data-aos="fade-up" data-aos-duration="1700">
                     <i class="bi bi-inboxes bgLightRed colorRed aboutP2icons "></i>
                     <h5 class="text-center">Labore consequatur incidid dolore</h5>
                     <p class="text-center">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
@@ -204,8 +216,9 @@
             </div>
         </section>
 
-        <section id="aboutP3" class="container-fluid mb-5 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1500">
-            <div class="container d-flex align-items-center justify-content-around">
+        <section id="aboutP3" class="container-fluid mb-5 d-flex justify-content-center align-items-center"
+            data-aos="fade-up" data-aos-duration="1500">
+            <div class="container d-flex align-items-center justify-content-around respo mediaAbout3">
                 <div class="z-2 number d-flex flex-column justify-content-center text-white">
                     <h1>232</h1>
                     <p>Clients</p>
@@ -427,8 +440,8 @@
             <div class="carousel-container" data-aos="fade-up" data-aos-duration="1300">
                 <div class="carousel">
                     <!-- Slide 1 -->
-                    <div class="slide  d-flex justify-content-center">
-                        <div class="testPara borderLeftRed">
+                    <div class="slide  d-flex justify-content-center respo">
+                        <div class="testPara borderLeftRed ">
                             <p><i class="bi bi-quote fs-3 colorLightRed"></i>Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Laudantium culpa veniam itaque et placeat accusamus, expedita natus
                                 earum nulla quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
@@ -450,8 +463,8 @@
                     </div>
 
                     <!-- Slide 2 -->
-                    <div class="slide pb-5 d-flex justify-content-center">
-                        <div class="testPara borderLeftRed">
+                    <div class="slide pb-5 d-flex justify-content-center respo">
+                        <div class="testPara borderLeftRed ">
                             <p><i class="bi bi-quote fs-3 colorLightRed"></i>Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Laudantium culpa veniam itaque et placeat accusamus, expedita natus
                                 earum nulla quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
@@ -473,8 +486,8 @@
                     </div>
 
                     <!-- Slide 3 -->
-                    <div class="slide pb-5 d-flex justify-content-center">
-                        <div class="testPara borderLeftRed">
+                    <div class="slide pb-5 d-flex justify-content-center respo">
+                        <div class="testPara borderLeftRed ">
                             <p><i class="bi bi-quote fs-3 colorLightRed"></i>Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Laudantium culpa veniam itaque et placeat accusamus, expedita natus
                                 earum nulla quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
@@ -496,8 +509,8 @@
                     </div>
 
                     <!-- Slide 4 -->
-                    <div class="slide pb-5 d-flex justify-content-center">
-                        <div class="testPara borderLeftRed">
+                    <div class="slide pb-5 d-flex justify-content-center respo">
+                        <div class="testPara borderLeftRed ">
                             <p><i class="bi bi-quote fs-3 colorLightRed"></i>Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Laudantium culpa veniam itaque et placeat accusamus, expedita natus
                                 earum nulla quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
@@ -531,14 +544,17 @@
 
 
         <!-- carouselle galerie -->
-        <section id="galerie" class="container-fluid d-flex flex-column align-items-center pt-3" data-aos="fade-up" data-aos-duration="1000">
+        <section id="galerie" class="container-fluid d-flex flex-column align-items-center pt-3" data-aos="fade-up"
+            data-aos-duration="1000">
             <div class="d-flex gap-1">
                 <div class="galerieDiv1">
                     <div class="filterDark">
                         <h4 class="titelGalerie fw-bold text-light">birthday parties</h4>
                         <h2 class="fw-bold text-light">$499</h2>
-                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, quibusdam. Error
-                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus aut,
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
+                            quibusdam. Error
+                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus
+                            aut,
                             architecto quam provident est, officia laudantium. Autem, vel.</p>
                     </div>
                 </div>
@@ -546,8 +562,10 @@
                     <div class="filterDark">
                         <h4 class="titelGalerie fw-bold text-light">birthday parties</h4>
                         <h2 class="fw-bold text-light">$499</h2>
-                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, quibusdam. Error
-                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus aut,
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
+                            quibusdam. Error
+                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus
+                            aut,
                             architecto quam provident est, officia laudantium. Autem, vel.</p>
                     </div>
                 </div>
@@ -555,8 +573,10 @@
                     <div class="filterDark">
                         <h4 class="titelGalerie fw-bold text-light">birthday parties</h4>
                         <h2 class="fw-bold text-light">$499</h2>
-                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, quibusdam. Error
-                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus aut,
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
+                            quibusdam. Error
+                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus
+                            aut,
                             architecto quam provident est, officia laudantium. Autem, vel.</p>
                     </div>
                 </div>
@@ -564,8 +584,10 @@
                     <div class="filterDark">
                         <h4 class="titelGalerie fw-bold text-light">birthday parties</h4>
                         <h2 class="fw-bold text-light">$499</h2>
-                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, quibusdam. Error
-                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus aut,
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
+                            quibusdam. Error
+                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus
+                            aut,
                             architecto quam provident est, officia laudantium. Autem, vel.</p>
                     </div>
                 </div>
@@ -573,8 +595,10 @@
                     <div class="filterDark">
                         <h4 class="titelGalerie fw-bold text-light">birthday parties</h4>
                         <h2 class="fw-bold text-light">$499</h2>
-                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, quibusdam. Error
-                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus aut,
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
+                            quibusdam. Error
+                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus
+                            aut,
                             architecto quam provident est, officia laudantium. Autem, vel.</p>
                     </div>
                 </div>
@@ -582,8 +606,10 @@
                     <div class="filterDark">
                         <h4 class="titelGalerie fw-bold text-light">birthday parties</h4>
                         <h2 class="fw-bold text-light">$499</h2>
-                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, quibusdam. Error
-                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus aut,
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
+                            quibusdam. Error
+                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus
+                            aut,
                             architecto quam provident est, officia laudantium. Autem, vel.</p>
                     </div>
                 </div>
@@ -591,8 +617,10 @@
                     <div class="filterDark">
                         <h4 class="titelGalerie fw-bold text-light">birthday parties</h4>
                         <h2 class="fw-bold text-light">$499</h2>
-                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, quibusdam. Error
-                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus aut,
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
+                            quibusdam. Error
+                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus
+                            aut,
                             architecto quam provident est, officia laudantium. Autem, vel.</p>
                     </div>
                 </div>
@@ -600,8 +628,10 @@
                     <div class="filterDark">
                         <h4 class="titelGalerie fw-bold text-light">birthday parties</h4>
                         <h2 class="fw-bold text-light">$499</h2>
-                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, quibusdam. Error
-                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus aut,
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit,
+                            quibusdam. Error
+                            minus itaque delectus recusandae praesentium, dolore excepturi reiciendis corrupti natus
+                            aut,
                             architecto quam provident est, officia laudantium. Autem, vel.</p>
                     </div>
                 </div>
@@ -622,8 +652,9 @@
                     <p class="titelSectionP">CHEFS</p>
                     <h1 class="titelSection">Our <span class="spanColor">Proffesional Chefs</span></h1>
                 </div>
-                <div class="d-flex gap-5 justify-content-center">
-                    <div class="cardChefs card rounded-2 col-md-3 border-0 shadow d-flex flex-column gap-1 pb-3" data-aos="fade-up" data-aos-duration="1100">
+                <div class="d-flex gap-5 justify-content-center respo">
+                    <div class="cardChefs card rounded-2 col-md-3 border-0 shadow d-flex flex-column gap-1 pb-3"
+                        data-aos="fade-up" data-aos-duration="1100">
                         <img src="./public/images/chefs/chefs-1.jpg" alt="" class="rounded-top-2">
                         <h3 class="text-center pt-3">Walter White</h3>
                         <p class="text-center colorGrey">Master Chef</p>
@@ -631,7 +662,8 @@
                             adipisicing elit. Minus maxime distinctio
                             inventore provident harum repellendus quod, eligendi expedita nesciunt est?</p>
                     </div>
-                    <div class="cardChefs card rounded-2 col-md-3 border-0 shadow d-flex flex-column gap-1 pb-3" data-aos="fade-up" data-aos-duration="1400">
+                    <div class="cardChefs card rounded-2 col-md-3 border-0 shadow d-flex flex-column gap-1 pb-3"
+                        data-aos="fade-up" data-aos-duration="1400">
                         <img src="./public/images/chefs/chefs-2.jpg" alt="" class="rounded-top-2">
                         <h3 class="text-center pt-3">Sarah Jhonson</h3>
                         <p class="text-center colorGrey">Patissier</p>
@@ -639,7 +671,8 @@
                             adipisicing elit. Minus maxime distinctio
                             inventore provident harum repellendus quod, eligendi expedita nesciunt est?</p>
                     </div>
-                    <div class="cardChefs card rounded-2 col-md-3 border-0 shadow d-flex flex-column gap-1 pb-3" data-aos="fade-up" data-aos-duration="1700">
+                    <div class="cardChefs card rounded-2 col-md-3 border-0 shadow d-flex flex-column gap-1 pb-3"
+                        data-aos="fade-up" data-aos-duration="1700">
                         <img src="./public/images/chefs/chefs-3.jpg" alt="" class="rounded-top-2">
                         <h3 class="text-center pt-3">William anderson</h3>
                         <p class="text-center colorGrey">Cook</p>
@@ -659,27 +692,27 @@
                     <p class="titelSectionP">BOOK A TABLE</p>
                     <h1 class="titelSection">book yout <span class="spanColor">stay whith us</span></h1>
                 </div>
-                <div class="d-flex mb-5 bg-secondary-subtle " data-aos="fade-up" data-aos-duration="1300">
-                    <div class="" >
-                        <img src="./public/images/reservation.jpg" alt="..." class="w-100">
+                <div class="d-flex mb-5 bg-secondary-subtle respo" data-aos="fade-up" data-aos-duration="1300">
+                    <div class="">
+                        <img src="./public/images/reservation.jpg" alt="..." class="w-100 mediaBook">
                     </div>
-                    <form class="w-100 ">
+                    <form class="w-100 mediaForm">
                         <div class="d-flex flex-column align-items-center gap-4 book">
-                            <div class="d-flex gap-4 div-inputs px-4">
-                                <input type="text" placeholder="Your Name" class="form-control rounded-0 w-100">
-                                <input type="email" placeholder="Your Email" class="form-control rounded-0 w-100">
-                                <input type="tel" placeholder="Your Phone" class="form-control rounded-0 w-100">
+                            <div class="d-flex gap-4 div-inputs px-4 respo mediaBookInp">
+                                <input type="text" placeholder="Your Name" class="mediaInp form-control rounded-0 w-100">
+                                <input type="email" placeholder="Your Email" class="mediaInp form-control rounded-0 w-100">
+                                <input type="tel" placeholder="Your Phone" class="mediaInp form-control rounded-0 w-100">
                             </div>
-                            <div class="d-flex gap-4 div-inputs ">
-                                <input type="date" class="form-control rounded-0">
-                                <input type="time" class="form-control rounded-0">
-                                <input type="text" placeholder="# of people" class="form-control rounded-0">
+                            <div class="d-flex gap-4 div-inputs respo mediaBookInp">
+                                <input type="date" class="mediaInp form-control rounded-0">
+                                <input type="time" class="mediaInp form-control rounded-0">
+                                <input type="text" placeholder="# of people" class="mediaInp form-control rounded-0">
                             </div>
                             <div class="d-flex div-textarea-book">
                                 <textarea placeholder="Message" class="form-control rounded-0"></textarea>
                             </div>
-                            <div class="w-25 ">
-                                <button type="submit" class="btn bgRed text-white w-100 p-3 hovv">Book A
+                            <div class="w-25 mediaBookBtnLastDiv">
+                                <button type="submit" class="btn bgRed text-white w-100 p-3 hovv mediaBookBtnLast">Book A
                                     Table</button>
                             </div>
                         </div>
@@ -690,7 +723,7 @@
         <!-- / book a table infos / -->
 
         <!-- gallerie -->
-         <section id="galeri" class="container-fluid">
+        <section id="galeri" class="container-fluid">
             <div class="py-5" data-aos="fade-up" data-aos-duration="800">
                 <p class="titelSectionP">GALERIE</p>
                 <h1 class="titelSection">Check <span class="spanColor">Our Gallery</span></h1>
@@ -711,7 +744,7 @@
                 <button class="p-1 bg-secondary-subtle rounded-5 border-0"></button>
                 <button class="p-1 bg-secondary-subtle rounded-5 border-0"></button>
             </div>
-         </section>
+        </section>
         <!-- / gallerie / -->
 
         <!-- contact -->
@@ -786,7 +819,7 @@
     <footer>
         <div class="container-fluid bg-black pt-5 mt-5">
             <div class="container">
-                <div class="d-flex media-footer">
+                <div class="d-flex respo">
                     <div class="col-3 d-flex gap-3 media-footer-card">
                         <div class="">
                             <i class="bi bi-geo-alt colorRed fs-3"></i>
@@ -821,13 +854,13 @@
                             <h5 class="font-familly fw-bold">Follow Us</h5>
                             <div class=" d-flex gap-2">
                                 <a href="#" class="text-decoration-none text-light mt-2"><i
-                                        class="fs border py-2 rounded-5 px-2 bi bi-twitter-x"></i></a>
+                                        class="iconeFooter bi bi-twitter-x"></i></a>
                                 <a href="#" class="text-decoration-none text-light mt-2"><i
-                                        class="fs border py-2 rounded-5 px-2 bi bi-facebook"></i></a>
+                                        class="iconeFooter bi bi-facebook"></i></a>
                                 <a href="#" class="text-decoration-none text-light mt-2"><i
-                                        class="fs border py-2 rounded-5 px-2 bi bi-instagram"></i></a>
+                                        class="iconeFooter bi bi-instagram"></i></a>
                                 <a href="#" class="text-decoration-none text-light mt-2"><i
-                                        class="fs border py-2 rounded-5 px-2 bi bi-linkedin"></i></a>
+                                        class="iconeFooter bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -843,13 +876,16 @@
     </footer>
     <!-- /footer/ -->
 
+    <!-- button fixed bottom -->
+     <a class="btn bgRed rounded-5 btnFixedBottom" href="#"><i class="bi bi-arrow-up text-light fs-5"></i></a>
+    <!--/ button fixed bottom /-->
 
     <!-- link scripts js -->
     <script src="./public/js/app.js"></script>
     <!-- script AOS animation -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
     <!-- /link sripts js/ -->
 </body>
